@@ -23,7 +23,7 @@ Window {
         color:"red"
         opacity: 0.2
         Image {
-            source: "file:///F:/QtQuickExample(Advance)/Contacts/bg1.png"
+            source: "qrc:/images/bg1.png"
             height: parent.height
             width: parent.width
         }
@@ -235,7 +235,7 @@ Window {
             color:"red"
             opacity: 0.1
             Image {
-                source: "file:///F:/QtQuickExample(Advance)/Contacts/bg.png"
+                source: "qrc:/images/bg.png"
                 height: parent.height
                 width: parent.width
             }
@@ -249,7 +249,7 @@ Window {
                 width:parent.width
                 height:100
                 Image {
-                    source: "file:///F:/QtQuickExample(Advance)/Contacts/back.png"
+                    source: "qrc:/images/back.png"
                     height:40
                     width:40
                     x:10
@@ -327,13 +327,13 @@ Window {
                         color: "transparent"
                         Image {
                             id:callId
-                            source: "file:///F:/QtQuickExample(Advance)/Contacts/1.png"
+                            source: "qrc:/images/1.png"
                             height:40
                             width:15
                         }
                     }
                     Image {
-                        source: "file:///F:/QtQuickExample(Advance)/Contacts/msg.png"
+                        source: "file:///D:/shiv/git_hub_projects/ContactApp/msg.png"
                         height:40
                         width:40
                     }
@@ -362,7 +362,7 @@ Window {
             color:"red"
             opacity: 0.1
             Image {
-                source: "file:///F:/QtQuickExample(Advance)/Contacts/bg.png"
+                source: "qrc:/images/bg.png"
                 height: parent.height
                 width: parent.width
             }
@@ -397,7 +397,7 @@ Window {
                     spacing: 10
                     anchors.horizontalCenter: parent.horizontalCenter
                     Image {
-                        source: "file:///F:/QtQuickExample(Advance)/Contacts/book.png"
+                        source: "qrc:/images/book.png"
                         height:40
                         width:40
                     }
@@ -422,7 +422,7 @@ Window {
                         color: "transparent"
                         Image {
                             id:callId1
-                            source: "file:///F:/QtQuickExample(Advance)/Contacts/1.png"
+                            source: "qrc:/images/1.png"
                             height:40
                             width:15
                         }
@@ -510,7 +510,7 @@ Window {
             color:"red"
             opacity: 0.1
             Image {
-                source: "file:///F:/QtQuickExample(Advance)/Contacts/bg.png"
+                source: "qrc:/images/bg.png"
                 height: parent.height
                 width: parent.width
             }
@@ -545,7 +545,7 @@ Window {
                     spacing: 10
                     anchors.horizontalCenter: parent.horizontalCenter
                     Image {
-                        source: "file:///F:/QtQuickExample(Advance)/Contacts/book.png"
+                        source: "qrc:/images/book.png"
                         height:40
                         width:40
                     }
@@ -569,7 +569,7 @@ Window {
                         color: "transparent"
                         Image {
                             id:callId2
-                            source: "file:///F:/QtQuickExample(Advance)/Contacts/1.png"
+                            source: "qrc:/images/1.png"
                             height:40
                             width:15
                         }
